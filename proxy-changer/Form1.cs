@@ -1,5 +1,4 @@
-﻿using CefSharp;
-using CefSharp.WinForms;
+﻿
 using MetroFramework;
 using MetroFramework.Forms;
 using Microsoft.Win32;
@@ -136,7 +135,8 @@ namespace proxy_changer
 
             setStatusTextFromThread("Disconnected", Color.Red, Color.Transparent);
 
-            this.Icon = Properties.Resources.ip_red;
+            // Thread ERROR
+            //this.Icon = Properties.Resources.ip_red;
         }
 
         private void setStatusTextFromThread(string text, Color font, Color back)
@@ -446,14 +446,6 @@ namespace proxy_changer
             }
         }
 
-        private void OnLoadingStateChanged(object sender, LoadingStateChangedEventArgs args)
-        {
-            if (!args.IsLoading)
-            {
-                disableSpinner("");
-                
-            }
-        }
 
         private void reportServerToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -578,10 +570,6 @@ namespace proxy_changer
             Process.Start(label7.Text);
         }
 
-        private void label9_Click(object sender, EventArgs e)
-        {
-            Process.Start(label9.Text);
-        }
 
         private void label2_Click(object sender, EventArgs e)
         {

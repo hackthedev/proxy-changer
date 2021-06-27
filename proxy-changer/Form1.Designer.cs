@@ -123,14 +123,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.links = new MetroFramework.Controls.MetroTabPage();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dt)).BeginInit();
             this.serverMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -884,8 +882,6 @@
             // 
             // links
             // 
-            this.links.Controls.Add(this.label9);
-            this.links.Controls.Add(this.label10);
             this.links.Controls.Add(this.label7);
             this.links.Controls.Add(this.label8);
             this.links.Controls.Add(this.label5);
@@ -894,7 +890,7 @@
             this.links.Controls.Add(this.label3);
             this.links.HorizontalScrollbarBarColor = true;
             this.links.HorizontalScrollbarHighlightOnWheel = false;
-            this.links.HorizontalScrollbarSize = 9;
+            this.links.HorizontalScrollbarSize = 5;
             this.links.Location = new System.Drawing.Point(4, 38);
             this.links.Name = "links";
             this.links.Size = new System.Drawing.Size(988, 423);
@@ -902,57 +898,7 @@
             this.links.Text = "Links";
             this.links.VerticalScrollbarBarColor = true;
             this.links.VerticalScrollbarHighlightOnWheel = false;
-            this.links.VerticalScrollbarSize = 7;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label9.Font = new System.Drawing.Font("Exo 2", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(141, 153);
-            this.label9.Margin = new System.Windows.Forms.Padding(3, 0, 3, 20);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(214, 24);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "http://chat.adsoleware.com";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(11, 153);
-            this.label10.Margin = new System.Windows.Forms.Padding(3, 0, 3, 20);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 24);
-            this.label10.TabIndex = 8;
-            this.label10.Text = "Live Support";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label7.Font = new System.Drawing.Font("Exo 2", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(141, 114);
-            this.label7.Margin = new System.Windows.Forms.Padding(3, 0, 3, 20);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(623, 24);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "https://adsoleware.com/community/ccc/proxy-changer-vpn-client-mit-226-server/";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(11, 114);
-            this.label8.Margin = new System.Windows.Forms.Padding(3, 0, 3, 20);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(114, 24);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "Proxy Changer";
+            this.links.VerticalScrollbarSize = 5;
             // 
             // label5
             // 
@@ -1003,6 +949,31 @@
             this.label3.Size = new System.Drawing.Size(70, 24);
             this.label3.TabIndex = 2;
             this.label3.Text = "Website";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(11, 114);
+            this.label8.Margin = new System.Windows.Forms.Padding(3, 0, 3, 20);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(100, 24);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "GitHub Repo";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label7.Font = new System.Drawing.Font("Exo 2", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(141, 114);
+            this.label7.Margin = new System.Windows.Forms.Padding(3, 0, 3, 20);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(351, 24);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "https://github.com/hackthedev/proxy-changer";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // Form1
             // 
@@ -1139,11 +1110,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label2;
     }
 }
 

@@ -144,7 +144,7 @@ For more information go to Links -&gt; Proxy Changer</value>
 
 - Added check to see if Proxy is enabled
 - Added "Links" Tab
-- Changed some behavior changes
+- Made some behavior changes
 - Loading Proxy List now from Server
 - Updated all Proxy lists
 - Added "Protocol" Info point
