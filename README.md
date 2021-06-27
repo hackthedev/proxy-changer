@@ -1,8 +1,14 @@
 # Proxy Changer
-This is a Program that allows you to change your
-Windows Proxy Server automatically from a list with a
-total of over 226 servers. 
+This is a Program that allows you to change your Windows Proxy Server automatically from a list with a total of over 226 servers. Because they are free, public proxies, I included a ping method and a way to get the servers GeoIP Location.
 
-Because they are free, public proxies, I included a
-ping method and a way to get the servers GeoIP 
-Location
+This is a old project I created in July 2020. The Code might be a mess and unoptimized. I will update it so it works better and that the code looks better. 
+
+<br>
+
+# Features
+- Proxy Connection
+  - HTTP
+  - HTTPS
+  - SOCKS 4
+  - SOCKS 5
+
