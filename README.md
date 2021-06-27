@@ -12,3 +12,11 @@ This is a old project I created in July 2020. The Code might be a mess and unopt
   - SOCKS 4
   - SOCKS 5
 
+<br>
+
+# Screenshots
+
+<img src="https://shy-devils.life-is-pa.in/2tca7x.png" />
+<img src="https://shy-devils.life-is-pa.in/owad6l.gif" />
+<img src="https://shy-devils.life-is-pa.in/9t7VDB.png" />
+<img src="https://shy-devils.life-is-pa.in/GFXayg.png" />
