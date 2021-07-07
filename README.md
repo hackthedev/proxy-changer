@@ -6,6 +6,9 @@ This is a old project I created in July 2020. The Code might be a mess and unopt
 <br>
 
 # Features
+- Show GeoIP Location of Server
+- Checks Server's availability
+- Log output to window
 - Proxy Connection
   - HTTP
   - HTTPS
