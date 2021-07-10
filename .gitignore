@@ -17,7 +17,7 @@
 mono_crash.*
 
 
-!/[Bb]in/x86/Debug/*.ico
+!/[Bb]in\x86\Debug\*.ico
 
 # Build results
 [Dd]ebugPublic/
