@@ -16,6 +16,9 @@
 # Mono auto generated files
 mono_crash.*
 
+
+!/[Bb]in/x86/Debug/*.ico
+
 # Build results
 [Dd]ebugPublic/
 [Rr]elease/
@@ -28,8 +31,6 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-
-!/[Bb]in/x86/Debug/*.ico
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
