@@ -349,6 +349,9 @@ MigrationBackup/
 
 
 # Exclude Debug, but include Image files
+/proxy-changer/bin/x86/Debug/GPUChache
 /proxy-changer/bin/x86/Debug/*.dll
 /proxy-changer/bin/x86/Debug/*.xml
 /proxy-changer/bin/x86/Debug/*.txt
+/proxy-changer/bin/x86/Debug/*.pak
+/proxy-changer/bin/x86/Debug/*.dat
