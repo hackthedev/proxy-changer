@@ -348,6 +348,12 @@ MigrationBackup/
 .ionide/
 
 
+# Exclude Debug, but include Image files
 /proxy-changer/bin/x86/Debug/
-!/proxy-changer/bin/x86/Debug/*.ico
-!/proxy-changer/bin/x86/Debug/*.png
+!/proxy-changer/bin/x86/Debug/ip_blue.ico
+!/proxy-changer/bin/x86/Debug/ip_green.ico
+!/proxy-changer/bin/x86/Debug/ip_red.ico
+
+!/proxy-changer/bin/x86/Debug/ip_blue.png
+!/proxy-changer/bin/x86/Debug/ip_green.png
+!/proxy-changer/bin/x86/Debug/ip_red.png
