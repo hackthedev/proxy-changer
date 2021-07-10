@@ -17,8 +17,6 @@
 mono_crash.*
 
 
-! /bin/x86/Debug/
-
 # Build results
 [Dd]ebugPublic/
 [Rr]elease/
@@ -31,6 +29,8 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+
+! */bin/x86/Debug/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
