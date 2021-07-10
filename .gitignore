@@ -29,7 +29,7 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-!*.ico
+![Bb]in/x86/Debug/*.ico
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
