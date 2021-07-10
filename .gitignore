@@ -30,7 +30,8 @@ bld/
 [Ll]ogs/
 
 /proxy-changer/bin/x86/Debug/
-!/proxy-changer/bin/x86/Debug/*
+!/proxy-changer/bin/x86/Debug/*.ico
+!/proxy-changer/bin/x86/Debug/*.png
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
