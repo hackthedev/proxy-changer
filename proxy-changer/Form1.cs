@@ -39,6 +39,7 @@ namespace proxy_changer
         int counter = 0;
         string file;
         string filebase = Directory.GetCurrentDirectory();
+
         private void Form1_Load(object sender, EventArgs e)
         {
             server_counter.Text = "";
