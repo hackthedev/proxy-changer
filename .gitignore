@@ -3,8 +3,6 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-!/bin/x86/Debug/*
-
 # User-specific files
 *.rsuser
 *.suo
@@ -27,10 +25,11 @@ x64/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+
+!/bin/x86/Debug/*
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
